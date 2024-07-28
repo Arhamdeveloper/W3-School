@@ -1,0 +1,266 @@
+/* navbar start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60px;
+}
+#header{
+    /* position: fixed; */
+}
+header{
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: white;
+}
+/* nav{
+    position: fixed;
+} */
+#img{
+    height: 40px;
+    width: 40px;
+    margin: 10%;
+}
+#navimg{
+    /* border: 1px solid black; */
+    width: 7%;
+    height: 60px;
+    display: inline-block;
+}
+#nav{
+    /* border: 1px solid black; */
+    display: inline-block;
+    height: 60px;
+    width: 90%;
+    font-size: 20px;
+    position: absolute;
+    top: -5px;
+   margin-top: 5px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    height: 50px;
+    
+}
+
+.tut{
+    /* border: 1px solid black; */
+    display: inline-block;
+    height: 60px;
+}
+.tut:hover{
+    color: white;
+    background-color: #04aa6d;
+}
+#input{
+    width: 170px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 570px;
+    margin-top: 30px;
+    top: -15px;
+    position: absolute;
+    border-radius: 30px;
+}
+#button1{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 79.5%;
+    margin-top: -50px;
+    font-size: 18px;
+    border: none;
+    background-color: #04aa6d;
+    color: white;
+    z-index: 3;
+    position: absolute;
+
+}
+#button2{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 87.5%;
+    margin-top: -50px;
+    font-size: 18px;
+    border: none;
+    z-index: 2;
+    position: relative;
+    top: -39px;
+}
+#button1:hover{
+    color: white;
+    background-color: #098d5d;
+}
+#button2:hover{
+    color: white;
+    background-color: #04aa6d;
+}
+/* navbar end */
+/* navbar2 start */
+.nav2{
+    border: 1px solid black;
+    height: 20px;
+    width: 6.4%;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.nav2:hover{
+    background-color: rgb(73, 72, 72);
+}
+#java{
+    width: 9%;
+}
+
+/* navbar2 end */
+#a{
+ height: 87vh;
+ width: 20%;
+ /* border: 1px solid black; */
+ margin: 10px;
+ margin-left: 0px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ position: fixed;
+ margin-top: 0px;
+}
+.div{
+    width: 100%;
+    height: 30px;
+     border: 1px solid black;
+     background-color: #e7e9eb;
+}
+#div1{
+    width: 100%;
+    height: 70px;
+     border: 1px solid black;
+}
+#div1:hover{
+    background-color: #e7e9eb;
+}
+.div:hover{
+    background-color: #04aa6d;
+}
+.div > p{
+    text-align: justify;
+}
+#search{
+    position: absolute;
+    top: 28px;
+    /* right: -90px; */
+    left: 700px;
+}
+#get{
+    display: inline-block;
+}
+#cer{
+    display: inline-block;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 10px;
+    left: 760px;
+}
+#cer:hover{
+    background-color: whitesmoke;
+}
+#right{
+    margin-left: 20%;
+    margin-top: 120px;
+}
+#heading{
+    margin: 40px;
+}
+.home{
+    height: 6vh;
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 7%;
+}
+#next{
+    margin-left: 700px;
+}
+#css{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 30vh;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: #d9eee1;
+}
+#p{
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#start{
+    margin-left: 25px;
+    margin-top: 17px;
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+}
+#example{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#this{
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#color{
+    background-color: #e7e9eb;
+    width: 80%;
+    height: 340px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#s{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+#background{
+    background-color: white;
+    width: 90%;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#try{
+    border: none;
+    background-color: #04aa6d;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-top: 17px;
+    color: white;
+}
+#arham{
+    background-color: black;
+}
